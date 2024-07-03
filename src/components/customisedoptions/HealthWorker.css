@@ -1,0 +1,57 @@
+.healthworker-container {
+
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.healthworker-container h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00; 
+}
+
+.healthworker-data-list {
+    list-style: none;
+    padding: 0;
+}
+
+.healthworker-data-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.healthworker-data-list li strong{
+    font-weight: bold;
+    color: green;
+}
+
+.scrolling-caption {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-caption h3 {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

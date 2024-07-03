@@ -1,0 +1,59 @@
+.weather{
+    margin-top: 30px;
+    background-color: black;
+    color:rgb(181, 172, 172);
+    border-radius: 1rem;
+    height:100%;
+}
+.weather-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .temp-details .icon,
+  .additional-details .icon {
+    width: 24px;
+    height: 24px;
+  }
+ 
+  .weather-description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+  }
+  .weather-description .icon-large {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+  }
+  
+
+  .weather-description p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .row + .row {
+    margin-top: 10px;
+  }
+
+  .small-size{
+    font-size:smaller !important;
+    color: skyblue;
+    font-style: italic;
+  }
+  .sundata Col{
+    padding-left: 0 !important;
+  }
+ .sundetail{
+    margin:0 !important;
+ }
+ .sunimage{
+    align-items: end;
+    
+ }

@@ -1,0 +1,71 @@
+.location-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.current-location {
+  color: rgb(181, 172, 172);
+}
+
+.location-button {
+  padding-bottom: 10px;
+ background-color: rgb(37, 36, 36) !important;
+ border:none !important;
+}
+
+.location-button:hover {
+  color: skyblue !important;
+}
+
+.custom-dropdown-button {
+  padding-bottom: 10px;
+}
+
+.custom-dropdown-button .btn-primary {
+  background-color: rgb(37, 36, 36);
+  border-color: rgb(37, 36, 36);
+  color: rgb(181, 172, 172);
+}
+
+.custom-dropdown-button .dropdown-item {
+  color: rgb(181, 172, 172);
+}
+
+.custom-dropdown-button .dropdown-item:hover,
+.custom-dropdown-button .dropdown-item:focus {
+  background-color: rgb(37, 36, 36);
+  color: skyblue;
+  font-size: 1.2rem;
+}
+
+.custom-dropdown-button .btn-primary:hover,
+.custom-dropdown-button .btn-primary:focus,
+.custom-dropdown-button .btn-primary:active {
+  background-color: rgb(37, 36, 36);
+  border-color: rgb(37, 36, 36);
+}
+
+.custom-dropdown-button .dropdown-menu {
+  background-color: rgb(37, 36, 36);
+  color: rgb(181, 172, 172);
+}
+
+.custom-dropdown-button .dropdown-toggle:hover,
+.custom-dropdown-button .dropdown-toggle:active {
+  background-color: rgb(37, 36, 36);
+  color: skyblue;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .searchBar input {
+    padding: 3px 7px;
+  }
+
+  .location-button, .custom-dropdown-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.basic-data {
+    /* Center the content */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+  }
+  
+  .local-time {
+    font-size: 2rem; /* Larger font size for time */
+    margin: 0; /* Remove margin */
+  }
+  
+  .local-date {
+    font-size: 1.2rem; /* Smaller font size for date */
+    margin: 0; /* Remove margin */
+  }
